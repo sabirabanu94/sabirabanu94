@@ -1,0 +1,57 @@
+2)
+Subtask 1 : The correct way to write this is to write separately the fix.html file and script.js
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+and inside script.js invoke alert
+alert(“I’m invoked!”);
+
+Subtask 2 :First it will render the HTML File , Inside body it will find the script.js source so would follow that Show alerts mentioned .
+Subtask 3 :The correct way would be to show like this
+let fname = "Guvi";
+let lname = "geek"
+let name = fname+lname;
+alert( 'hello ${name}' );
+Subtask 4 :let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(a + b);
+Subtask 5 :As the value of variable a is turned to be true , so will print Code Is Blasted , If we want to print diffuse we can change condition for getiing a to "2" < "12" and it will print diffuse
+Subtask 6 : The user can enter anything except number like string , characters etc and it will print success
+Subtask  7 : Inside console.log in each line we can print value , and can get the correct score
+Subtask 8 : let login = 'Employee';
+let message = (login == 'Employee') ? :"Welcome " : '';
+console.log(message);
+Subtask 9 : 
+let a = "boss";
+let message;
+if (a == "boss")
+{
+ let message = "welcome boss";
+}
+else
+{
+ let message = "Go away";
+}
+  console.log(message);
+  Subtask 10 : Instead of simple message of Welcome , change it to Welcome the boss
+  Subtask 11 :  Change this console.log( --i ) to console.log( i-- )
+  Subtask 12 : for(let i = 1 ; i<= 10 ; i++){
+                  console.log(i);
+                 }
+  Subtask 13 : 
+  for (let num = 2; num <= 20 && num%2 == 0; num += 1) {
+  console.log(num)
+   }
+Subtask 14: 
+for (let i = 0; i < 3; i++) {
+  console.log(  gifts[i],"and added a bow!');
+}
+Subtask 15 " "
+3)
+SOlution Provided in the read itself
+4)
+SOlution Provided in the read itself
